@@ -1,11 +1,15 @@
 header {
   margin: 0;
 }
+
+body {
+  margin: 0;
+}
 .nav {
   list-style-type: none;
   background-color: white;
   margin: 0;
-  padding: 18px 0px 18px 0px;
+  padding: 15px 0px 15px 0px;
   overflow: hidden;
   border-bottom-style: groove;
   border-bottom-width: 2px;
@@ -31,4 +35,42 @@ header {
   background-image: url(../images/car2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.signup-text{
+  position: absolute;
+  right: 12em;
+  top: 8em;
+  font-family: 'PT+Sans', sans-serif;
+}
+
+.signup-form{
+  position: absolute;
+  right: 14em;
+  top: 17em;
+}
+
+.form-input p{
+  width: 20em;
+  margin-bottom: 2.5em;
+  font-family: 'Roboto', sans-serif;
+}
+
+input{
+  position: absolute;
+  left: 14em;
+  width: 20em;
+  height: 3em;
+}
+
+/* Responsive Mobile */
+/* Mobile Phone **/
+@media (max-width: 400px) {
+  .signup-body{
+    left: 1px;
+    top: 5em;
+    width: 10px;
+    height: 10px;
+    background-image: none;
+  }
 }
